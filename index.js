@@ -24,6 +24,9 @@ app.get("/api/newFeaturedProducts", (req, res) => {
 app.get("/api/showcaseImages", (req, res) => {
   res.json(data.showcaseImages);
 });
+app.get("/api/showcaseGridData", (req, res) => {
+  res.json(data.showcaseGridData);
+});
 app.get("/api/sportItems", (req, res) => {
   res.json(data.sportItems);
 });

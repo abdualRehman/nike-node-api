@@ -275,6 +275,20 @@ const ads = [
       "Nike Members get free delivery and free 30-day returns. Learn More Join Us",
   },
 ];
+const showcaseGridData = [
+  "Size 1",
+  "Size 2",
+  "Size 3",
+  "Size 4",
+  "Size 5",
+  "Size 6",
+  "Size 7",
+  "Size 8",
+  "Size 9",
+  "Size 10",
+  "Size 11",
+  "Size 12",
+];
 
 // Create an object to hold all the data arrays
 const data = {
@@ -284,6 +298,7 @@ const data = {
   showcaseImages,
   sportItems,
   weatherClothing,
+  showcaseGridData,
   womenProducts,
   ads,
 };
