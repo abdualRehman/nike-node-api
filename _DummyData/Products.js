@@ -2,6 +2,20 @@ const exploreItems = [
   {
     link: "/ComingSoon",
     imgSrc:
+      "https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_411,c_limit/7170a5e9-e855-4f71-8728-9ff28b3af33a/nike-just-do-it.jpg",
+    alt: "explore-section",
+    targetAudience: "Women",
+  },
+  {
+    link: "/ComingSoon",
+    imgSrc:
+      "https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_411,c_limit/82ee2107-321f-4649-8de8-50ddb5bf8c40/nike-just-do-it.jpg",
+    alt: "explore-section",
+    targetAudience: "Women",
+  },
+  {
+    link: "/ComingSoon",
+    imgSrc:
       "https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_540,c_limit/23fd8e65-c6a5-4b03-98e4-4a6281bd5592/nike-just-do-it.jpg",
     alt: "explore-section",
     targetAudience: "Women",
