@@ -2,6 +2,13 @@ const exploreItems = [
   {
     link: "/ComingSoon",
     imgSrc:
+      "https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_411,c_limit/50343d72-ef32-484c-8530-a5c96ef02754/nike-just-do-it.jpg",
+    alt: "explore-section",
+    targetAudience: "Men",
+  },
+  {
+    link: "/ComingSoon",
+    imgSrc:
       "https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_411,c_limit/7170a5e9-e855-4f71-8728-9ff28b3af33a/nike-just-do-it.jpg",
     alt: "explore-section",
     targetAudience: "Women",
@@ -45,6 +52,13 @@ const exploreItems = [
 
 const mensProducts = [
   {
+    id: 4,
+    name: "Air Jordan 1 High OG 'Royal Reimagined'",
+    price: 109.95,
+    imageSrc:
+      "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/h_328,c_limit/17be44ef-4820-40e5-9b54-ebf91f73b167/air-jordan-1-high-og-royal-reimagined-mens-shoes-gX9FS0.png",
+  },
+  {
     id: 0,
     name: "Nike Dunk Low Retro",
     price: 109.95,
@@ -69,6 +83,13 @@ const mensProducts = [
 
 const newFeaturedProducts = [
   {
+    id: 4,
+    name: "Nike Pegasus 40",
+    price: 65.95,
+    imageSrc:
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/afae2211-215f-4000-925b-56ce0c9e405c/pegasus-40-womens-road-running-shoes-L80k6C.png",
+  },
+  {
     id: 0,
     name: "Jordan True Flight",
     price: 65.95,
@@ -92,6 +113,12 @@ const newFeaturedProducts = [
 ];
 
 const showcaseImages = (images = [
+  {
+    original:
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2fe5af6-961c-4bc0-a78c-23c244c6e13d/pegasus-40-womens-road-running-shoes-L80k6C.png",
+    thumbnail:
+      "https://static.nike.com/a/images/t_default/5ff1df43-350b-44db-8f19-4ffc2c6dddef/pegasus-40-womens-road-running-shoes-L80k6C.png",
+  },
   {
     original:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e87becc6-39ec-4696-b6d3-3345fd332088/jordan-true-flight-younger-shoes-jjVD9L.png",
@@ -202,6 +229,13 @@ const sportItems = [
 ];
 
 const weatherClothing = [
+  {
+    link: "/ComingSoon",
+    imgSrc:
+      "https://static.nike.com/a/images/f_auto/dpr_0.8,cs_srgb/w_419,c_limit/fc041534-eab1-4088-a41d-71f475275c83/nike-just-do-it.jpg",
+    alt: "NikeApparel",
+    title: "Winter Shoes",
+  },
   {
     link: "/ComingSoon",
     imgSrc:
