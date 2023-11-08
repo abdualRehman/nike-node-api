@@ -2,10 +2,13 @@
 const express = require("express");
 const data = require("./_DummyData/Products");
 
+var cors = require('cors')
+
 const app = express();
 const port = 5000; // You can use any available port
 
 app.use(express.json());
+app.use(cors());
 
 app.get("/", (req, res) => {
   res.send("Hey this is my API running 🥳");
