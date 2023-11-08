@@ -7,6 +7,10 @@ const port = 5000; // You can use any available port
 
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.send("Hey this is my API running 🥳");
+});
+
 // Define an API endpoint to get the list of products
 app.get("/api/exploreItems", (req, res) => {
   res.json(data.exploreItems);
@@ -36,3 +40,5 @@ app.get("/api/ads", (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
+
+module.exports = app;
