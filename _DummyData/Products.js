@@ -50,6 +50,237 @@ const exploreItems = [
   },
 ];
 
+const allProducts = [
+  {
+    id: 1,
+    name: "Air Jordan 1 High OG 'Royal'",
+    price: 109.95,
+    category: "mens",
+    imageSrc:
+      "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/17be44ef-4820-40e5-9b54-ebf91f73b167/air-jordan-1-high-og-royal-reimagined-mens-shoes-gX9FS0.png",
+    media: [
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/be4275d7-3a88-4592-a9d7-61d615e20ff1/air-jordan-1-high-og-royal-reimagined-mens-shoes-gX9FS0.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/17be44ef-4820-40e5-9b54-ebf91f73b167/air-jordan-1-high-og-royal-reimagined-mens-shoes-gX9FS0.png",
+      },
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/636de0b6-3da1-4de6-866b-5a3e3703e737/air-jordan-1-high-og-royal-reimagined-mens-shoes-gX9FS0.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9cbb955b-e71c-4568-8f4f-9f07f8322bd6/air-jordan-1-high-og-royal-reimagined-mens-shoes-gX9FS0.png",
+      },
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/21692e08-697b-4bda-9b9d-fea249a11439/air-jordan-1-high-og-royal-reimagined-mens-shoes-gX9FS0.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4bf5334c-258e-476b-9655-39429fb095b9/air-jordan-1-high-og-royal-reimagined-mens-shoes-gX9FS0.png",
+      },
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6933ee32-732d-48af-8bf2-d4f32f7d133b/air-jordan-1-high-og-royal-reimagined-mens-shoes-gX9FS0.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d5c1f8cd-9fda-4a18-8b7c-8864360c28e9/air-jordan-1-high-og-royal-reimagined-mens-shoes-gX9FS0.png",
+      },
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7ad8f3a4-8b4f-41f6-8206-6c615f9277a2/air-jordan-1-high-og-royal-reimagined-mens-shoes-gX9FS0.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/47e6bf79-1ca8-4425-bf29-b4487418b163/air-jordan-1-high-og-royal-reimagined-mens-shoes-gX9FS0.png",
+      },
+    ],
+  },
+  {
+    id: 2,
+    name: "Air Jordan 1 Element",
+    price: 109.95,
+    category: "mens",
+    imageSrc:
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a79fb0e3-0459-4238-9697-60dda465ef2b/air-jordan-1-element-shoes-Kcsdzl.png",
+    media: [
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4f597d9a-488a-480d-a591-11eee9db346a/air-jordan-1-element-shoes-Kcsdzl.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a79fb0e3-0459-4238-9697-60dda465ef2b/air-jordan-1-element-shoes-Kcsdzl.png",
+      },
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d9ff7cf2-31d1-4fe8-a91d-1b65a7d995ab/air-jordan-1-element-shoes-Kcsdzl.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c463a57d-e0e3-4259-b044-1a196ecf2a73/air-jordan-1-element-shoes-Kcsdzl.png",
+      },
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/51afe384-1566-4d6d-95cb-5100b158ff67/air-jordan-1-element-shoes-Kcsdzl.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2555926d-5f88-4d1f-bb88-de0c98b119a4/air-jordan-1-element-shoes-Kcsdzl.png",
+      },
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/90891075-9879-42d7-9af1-c7836d8d3bc9/air-jordan-1-element-shoes-Kcsdzl.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ef9f7f40-2c98-4b0a-a57c-e32e8b584222/air-jordan-1-element-shoes-Kcsdzl.png",
+      },
+    ],
+  },
+  {
+    id: 3,
+    name: "Air Jordan 1 Element",
+    price: 109.95,
+    category: "mens",
+    imageSrc:
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/edcc1900-ab74-427b-8b78-d13eb34be5a8/lebron-xxi-tahitian-basketball-shoes-lnQSsH.png",
+    media: [
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/72e9d8f3-6831-46b1-9fa4-9a7e0d18a450/lebron-xxi-tahitian-basketball-shoes-lnQSsH.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/edcc1900-ab74-427b-8b78-d13eb34be5a8/lebron-xxi-tahitian-basketball-shoes-lnQSsH.png",
+      },
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f3e2afb7-f248-45da-8e1f-8e890402d739/lebron-xxi-tahitian-basketball-shoes-lnQSsH.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/6dc0891e-de97-44cc-b498-6a454d35fde9/lebron-xxi-tahitian-basketball-shoes-lnQSsH.png",
+      },
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f8fc948a-d623-43ba-9b18-88269ecc322f/lebron-xxi-tahitian-basketball-shoes-lnQSsH.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/05ef8e89-d0db-4304-9297-f1ae87344453/lebron-xxi-tahitian-basketball-shoes-lnQSsH.png",
+      },
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f537eb3f-9dbd-4b5d-9c76-2a0bf0db8768/lebron-xxi-tahitian-basketball-shoes-lnQSsH.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/ecdee895-4c6e-4e41-a8ca-7dae5657d6fa/lebron-xxi-tahitian-basketball-shoes-lnQSsH.png",
+      },
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ed6fe2ec-2bf7-48c5-aded-5ec550af88b6/lebron-xxi-tahitian-basketball-shoes-lnQSsH.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/ebfeebbf-d033-4e1c-b1c9-120ba3343914/lebron-xxi-tahitian-basketball-shoes-lnQSsH.png",
+      },
+    ],
+  },
+  {
+    id: 4,
+    name: "Nike Duke",
+    price: 109.95,
+    category: "womens",
+    imageSrc:
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/289701f2-a8fa-4f14-a9e7-77c1dbe847eb/dunk-low-womens-shoes-Zg780j.png",
+    media: [
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b7d7e852-2d47-48a6-bc1f-223e4422d249/dunk-low-womens-shoes-Zg780j.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/289701f2-a8fa-4f14-a9e7-77c1dbe847eb/dunk-low-womens-shoes-Zg780j.png",
+      },
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ea53fb68-962b-465a-b39b-8ab1b4e447b5/dunk-low-womens-shoes-Zg780j.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/e761fb4a-0320-4a9f-afa6-26c7813c8457/dunk-low-womens-shoes-Zg780j.png",
+      },
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c125c3c4-913e-49be-a07d-b4e0584d6b65/dunk-low-womens-shoes-Zg780j.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/79924918-3c13-41aa-9985-bb6e2b7db3f3/dunk-low-womens-shoes-Zg780j.png",
+      },
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/29115708-b666-4372-8e09-46b8f54457a4/dunk-low-womens-shoes-Zg780j.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/902b7ea8-c3b7-47ab-97c4-4e594f6e95ce/dunk-low-womens-shoes-Zg780j.png",
+      },
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1e344322-931d-4dd3-a50a-418333c1e7d5/dunk-low-womens-shoes-Zg780j.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/268e7c4f-9b96-4bf6-acf6-fa68b9cccb32/dunk-low-womens-shoes-Zg780j.png",
+      },
+    ],
+  },
+  {
+    id: 5,
+    name: "Nike Gamma Force",
+    price: 109.95,
+    category: "womens",
+    imageSrc:
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1d02ae7d-9191-49b3-96a4-c1336cc698fd/gamma-force-shoes-4TR9Xf.png",
+    media: [
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5b5cd478-9beb-4754-8b5f-47b72055026b/gamma-force-shoes-4TR9Xf.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/1d02ae7d-9191-49b3-96a4-c1336cc698fd/gamma-force-shoes-4TR9Xf.png",
+      },
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/316477e9-1409-43c2-8397-e225efa3d146/gamma-force-shoes-4TR9Xf.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/66bee5ca-e0a0-4dea-b811-5c5811cadfc9/gamma-force-shoes-4TR9Xf.png",
+      },
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3aa7ca02-44cf-4385-b36a-6f6b5972d268/gamma-force-shoes-4TR9Xf.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/79be5b7b-b6d0-4612-9743-a7b8936fa843/gamma-force-shoes-4TR9Xf.png",
+      },
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7c7f9d71-4ddb-428f-937a-4f23dfd6091b/gamma-force-shoes-4TR9Xf.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/158b8322-8457-47f7-9a3d-259aaf78f7ba/gamma-force-shoes-4TR9Xf.png",
+      },
+    ],
+  },
+  {
+    id: 6,
+    name: "Nike Air Max",
+    price: 109.95,
+    category: "womens",
+    imageSrc:
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5a897c33-8357-43ca-85f6-a9d28979b429/air-max-excee-womens-shoes-jKsgMj.png",
+    media: [
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4ff2fe4a-4f74-4189-82f0-3ea780f9389d/air-max-excee-womens-shoes-jKsgMj.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/5a897c33-8357-43ca-85f6-a9d28979b429/air-max-excee-womens-shoes-jKsgMj.png",
+      },
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ccfc477a-98ec-42b7-a753-5a05de6d75e5/air-max-excee-womens-shoes-jKsgMj.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/e39214f1-6c3a-40de-9bf9-2f62a9cd9352/air-max-excee-womens-shoes-jKsgMj.png",
+      },
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f0f9838c-a13f-4a16-9d6a-045b8bcd4663/air-max-excee-womens-shoes-jKsgMj.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/db21db82-408e-4300-ba75-5da5a1282236/air-max-excee-womens-shoes-jKsgMj.png",
+      },
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/49ec2d09-f351-4a67-9958-95d9bf67b579/air-max-excee-womens-shoes-jKsgMj.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/96e5d0d7-489c-49a4-bcee-5db80711b7fd/air-max-excee-womens-shoes-jKsgMj.png",
+      },
+      {
+        original:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/33f14890-9ba3-4ca0-90b6-f3a099620840/air-max-excee-womens-shoes-jKsgMj.png",
+        thumbnail:
+          "https://static.nike.com/a/images/t_default/58202eef-f6af-4ad0-ba73-bd895f29205c/air-max-excee-womens-shoes-jKsgMj.png",
+      },
+    ],
+  },
+];
+
 const mensProducts = [
   {
     id: 4,
@@ -349,6 +580,7 @@ const data = {
   showcaseGridData,
   womenProducts,
   ads,
+  allProducts,
 };
 
 module.exports = data;
