@@ -463,9 +463,10 @@ const weatherClothing = [
   {
     link: "/ComingSoon",
     imgSrc:
-      "https://static.nike.com/a/images/f_auto/dpr_0.8,cs_srgb/w_419,c_limit/fc041534-eab1-4088-a41d-71f475275c83/nike-just-do-it.jpg",
+      // "https://static.nike.com/a/images/f_auto/dpr_0.8,cs_srgb/w_419,c_limit/fc041534-eab1-4088-a41d-71f475275c83/nike-just-do-it.jpg",
+      "https://scontent.flhe38-1.fna.fbcdn.net/v/t1.6435-9/131297414_3464323313665925_7997579501339776938_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c2f564&_nc_ohc=7n5qEPTc4bEAX8w_F-S&_nc_ht=scontent.flhe38-1.fna&oh=00_AfCxte61AwHjxXLJj8NzDjUjza8Fj_Y_OsKLQnQM2Y4ZLA&oe=65748A59",
     alt: "NikeApparel",
-    title: "Winter Shoes",
+    title: "Cristmas Sale",
   },
   {
     link: "/ComingSoon",
